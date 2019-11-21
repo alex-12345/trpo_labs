@@ -1,4 +1,38 @@
-body {
-    background-color: blanchedalmond;
-    
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    background-color: #fff;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper h1{
+    font-size: 50px;
+    text-align: center;
+}
+.select_wrapper{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+}
+.select_wrapper img{
+    float: right;
+}
+.select_wrapper select{
+    float: left;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 10px ;
+    outline: none;
 }
